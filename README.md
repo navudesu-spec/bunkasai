@@ -12,7 +12,6 @@
    </a-animation>
   </a-sphere>
  </a-marker>
-
  <a-entity camera></a-entity>
 </a-scene>
 </body>
