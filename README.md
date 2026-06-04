@@ -1,5 +1,4 @@
 # bunkasai
-とりあえず公開テスト用
 <DOCTYPE html>
 <head>
 　<script src="https://aframe.io/releases/0.8.2/afraim.min.js"></script>
