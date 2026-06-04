@@ -1,2 +1,22 @@
 # bunkasai
 とりあえず公開テスト用
+<DOCTYPE html>
+<head>
+<script src="https:/ aframe.io/releases/0.8.2/afraim.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js></script>
+</head>
+<body style='margin: 0; overflow: hidden;'>
+<a-scene embedded arjs="debugUIEnabled:false;">
+ <a-marker preset="hiro">
+  <a-sphere scale=".25 .25 .25" position="0 .5 0" color="#151">
+   <a-animation attribute="position" to="0 1 0" direction="alternate" dur="2000" repeat="indifinite">
+   </a-animation>
+  </a-sphere>
+ </a-marker>
+
+ <a-entity camera></a-entity>
+</a-scene>
+</body>
+</html>
+
+ 
