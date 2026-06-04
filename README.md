@@ -2,7 +2,7 @@
 とりあえず公開テスト用
 <DOCTYPE html>
 <head>
-　<script src="https:/ aframe.io/releases/0.8.2/afraim.min.js"></script>
+　<script src="https://aframe.io/releases/0.8.2/afraim.min.js"></script>
 　<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js></script>
 </head>
 <body style='margin: 0; overflow: hidden;'>
