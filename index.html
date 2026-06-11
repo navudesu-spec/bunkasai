@@ -16,7 +16,9 @@
       <a-animation attribute="position" to="0 1 0" direction="alternate" dur="2000" repeat="indefinite">
       </a-animation>
     </a-sphere>
-    <a-box position="-1 1.6 -5" color="#444" animation="property: rotation; to: 0 360 0; loop: true; dur: 1000; easing: linear;"></a-box>
+    <a-box position="-1 1.6 -5" color="#444">
+  <a-animation property="rotation" to="0 360 0" loop="true" dur="1000" easing="linear">
+    </a-animation></a-box>
   <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"
             animation="property: position; to: 1 1.5 -3; dir: alternate; loop: true; dur: 1500; easing: easeInOutSine">
  </a-cylinder>
