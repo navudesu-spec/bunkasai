@@ -9,11 +9,7 @@
       <a-asset-item id="bouningen" src="やらかした.glb" scale="1 1 1"></a-asset-item>
     </a-assets>
  <a-marker preset="hiro">
-  <a-sphere scale=".25 .25 .25" position="0 .5 0" color="#151">
-   <a-animation attribute="position" to="0 1 0" direction="alternate" dur="2000" repeat="indifinite">
-   </a-animation>
-  </a-sphere>
-　<a-entity gltf-model="#bouningen" rotation="-90 0 0"></a-entity>
+  <a-entity src="#bouningen" position="0 5 0"><a-entity>
  </a-marker>
 
 <a-marker type="pattern" url="pattern-IMG_3680.patt">
