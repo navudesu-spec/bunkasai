@@ -5,11 +5,9 @@
 </head>
 <body style='margin: 0; overflow: hidden;'>
 <a-scene embedded arjs="debugUIEnabled:false;">
-  <a-assets>
-      <a-asset-item id="bouningen" src="やらかした.glb" scale="1 1 1"></a-asset-item>
-    </a-assets>
+ 
  <a-marker preset="hiro">
-  <a-entity src="#bouningen" position="0 5 0"><a-entity>
+   <a-gltf-model src="やらかした.glb" position="0 0 0"></a-gltf-model>
  </a-marker>
 
 <a-marker type="pattern" url="pattern-IMG_3680.patt">
