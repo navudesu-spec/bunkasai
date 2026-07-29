@@ -9,7 +9,7 @@
 <a-scene embedded arjs="debugUIEnabled:false;">
 
  <a-assets timeout="10000">
-	<a-asset-item id="bouningen_gltf" src="/やらかした.glb"></a-asset-item>
+	<a-asset-item id="bouningen_gltf" src="/yarakasita.glb"></a-asset-item>
 </a-assets>
 
  <a-marker preset="hiro">
