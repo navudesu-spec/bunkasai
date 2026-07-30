@@ -9,13 +9,13 @@
 
 <!-- シーンの追加とデバックUIを非表示 -->
  <a-scene embedded arjs="debugUIEnabled:false;">
-<a-assets><a-asset-item id="bouningen" src="yarakasita.glb"></a-asset-item>
+<a-assets><a-asset-item id="bouningen" src="https://github.com/navudesu-spec/bunkasai/raw/refs/heads/main/AR/models/yarakasita.glb"></a-asset-item>
   </a-assets>
   <!-- ② hiroマーカーでのソース -->
 
     <a-marker type="pattern" url="hiro.patt">
         <!-- 3Dモデルを呼び出す -->
-        <a-entity gltf-model="#bouningen" rotation="-90 0 0"></a-entity>
+        <a-entity gltf-model="#bouningen" ></a-entity>
         <a-sphere scale=".25 .25 .25" position="0 .10 0" color="#00f"> </a-sphere>
       </a-marker>
 
