@@ -12,17 +12,19 @@
 
   <!-- ② hiroマーカーでのソース -->
   <a-marker preset="hiro">
-    <a-sphere scale=".25 .25 .25" position="0 .5 0" color="#111">
+    <a-assets timeout="10000">
+	<a-asset-item id="bouningen_gltf" src="/yarakasita.glb"></a-asset-item>
+</a-assets>
+
+ <a-marker preset="hiro">
+   <a-gltf-model src="#bouningen_gltf" position="-5 5 -15" rotation="0 -20 0"></a-gltf-model>
+ </a-marker>
+
+<a-marker type="pattern" url="pattern-IMG_3680.patt">
+    <a-sphere scale=".25 .25 .25" position="0 .5 0" color="#f00">
       <a-animation attribute="position" to="0 1 0" direction="alternate" dur="2000" repeat="indefinite">
       </a-animation>
     </a-sphere>
-    <a-box position="0 .10 0" color="#4D4">
-  <a-animation attribute="rotation" to="0 360 0" loop="true" dur="1000" easing="linear">
-    </a-animation></a-box>
-  <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"
-            animation="property: position; to: 1 1.5 -3; dir: alternate; loop: true; dur: 1500; easing: easeInOutSine">
- </a-cylinder>
-
   </a-marker>
 
   
