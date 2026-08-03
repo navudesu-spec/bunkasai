@@ -17,7 +17,7 @@ layout: null
  <a-scene embedded arjs="sourceType: webcam; debugUIEnabled:false;">
 <a-assets><a-asset-item id="bouningen" src="AR/models/yarakasita.glb"></a-asset-item></a-assets>
   <!-- ② hiroマーカーでのソース -->
-<a-scene renderer="colorManagement: true;"></a-scene>
+
     <a-marker preset="hiro">
         <!-- 3Dモデルを呼び出す -->
         <a-entity gltf-model="#bouningen" rotation="90 180 0"></a-entity>
